@@ -1,0 +1,48 @@
+{% extends 'main.html' %}
+ {% block title %}<title>О нас</title>{% endblock %}
+{% load static %}
+{% block content %}
+
+
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>О нас</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--/ bradcam_area  -->
+
+    <div class="main_about_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h3>Авторский ресторан</h3>
+                        <p>Twins Garden — ресторан, в основе концепции которого симбиоз науки и природы. Передовые технологические разработки + продукты с собственной фермы.
+
+В лаборатории, оснащенной самым современным кулинарным оборудованием, рождаются новые блюда и прогрессивные технологии их приготовления. А собственная ферма в Ярославской области дает возможность использовать на кухне самые свежие сезонные экопродукты.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="about_thumb">
+                                <img src="{% static 'img/about/about_1.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="about_thumb">
+                                <img src="{% static 'img/about/about_2.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

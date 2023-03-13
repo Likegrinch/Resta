@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class MenuItem(models.Model):
     title = models.CharField(max_length=70, verbose_name='Название')
     description = models.TextField(verbose_name='Описание')
